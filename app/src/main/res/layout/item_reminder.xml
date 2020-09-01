@@ -5,9 +5,10 @@
     android:layout_height="wrap_content">
 
     <TextView
-        android:id="@+id/tvReminder"
+        android:id="@+id/inputReminder"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
