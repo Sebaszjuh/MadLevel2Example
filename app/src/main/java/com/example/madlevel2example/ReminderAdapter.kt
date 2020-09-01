@@ -15,7 +15,7 @@ class ReminderAdapter(private val reminders: List<Reminder>) :
         val binding = ItemReminderBinding.bind(itemView)
 
         fun databind(reminder: Reminder) {
-            binding.tvReminder.text = reminder.reminderText
+            binding.inputReminder.text = reminder.reminderText
         }
     }
 
